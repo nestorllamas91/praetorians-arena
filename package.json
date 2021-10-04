@@ -1,0 +1,90 @@
+{
+  "name": "praetorians-arena",
+  "author": {
+    "name": "Néstor Llamas",
+    "email": "nestorllamas91@gmail.com"
+  },
+  "description": "A tournament platform for the videogame Praetorians Remaster.",
+  "keywords": [
+    "praetorians",
+    "gaming",
+    "tournaments"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestorllamas91/praetorians-arena.git"
+  },
+  "_moduleAliases": {
+    "@/middleware": "./src/middleware",
+    "@/routes": "./src/routes",
+    "@/controllers": "./src/controllers",
+    "@/models": "./src/models",
+    "@/utils": "./src/utils"
+  },
+  "scripts": {
+    "dev": "node -r dotenv/config -r esm -r module-alias/register src/app.js",
+    "dev-nodemon": "nodemon -r dotenv/config -r esm -r module-alias/register src/app.js",
+    "build": "next build",
+    "start": "node -r dotenv/config -r esm -r module-alias/register src/app.js",
+    "prepare": "husky install",
+    "lint:code": "eslint \"./src/**/*.js\"",
+    "lint:types": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{js,json,md}\""
+  },
+  "dependencies": {
+    "@mui/icons-material": "5.0.1",
+    "@mui/material": "5.0.2",
+    "@mui/styles": "5.0.1",
+    "@reduxjs/toolkit": "1.6.1",
+    "@syncfusion/ej2-base": "19.3.43",
+    "@syncfusion/ej2-react-calendars": "19.3.43",
+    "@syncfusion/ej2-react-dropdowns": "19.3.43",
+    "@syncfusion/ej2-react-inputs": "19.3.43",
+    "axios": "0.22.0",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "jstz": "2.1.1",
+    "jwt-decode": "3.1.2",
+    "moment": "2.29.1",
+    "moment-timezone": "0.5.33",
+    "mongoose": "6.0.9",
+    "multer": "1.4.3",
+    "next": "11.1.2",
+    "nodemailer": "6.6.5",
+    "passport": "0.5.0",
+    "passport-jwt": "4.0.0",
+    "passport-steam": "1.0.16",
+    "react": "17.0.2",
+    "react-bootstrap": "1.6.4",
+    "react-dom": "17.0.2",
+    "react-image-gallery": "1.2.7",
+    "react-redux": "7.2.5",
+    "react-responsive-modal": "6.1.0",
+    "react-scrollable-anchor": "0.6.1",
+    "sweetalert2": "11.1.7",
+    "sweetalert2-react-content": "4.1.1",
+    "universal-cookie": "4.0.4",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "13.2.0",
+    "@commitlint/config-conventional": "13.2.0",
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
+    "dotenv": "10.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-react": "7.26.1",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "esm": "3.2.25",
+    "husky": "7.0.2",
+    "lint-staged": "11.2.0",
+    "module-alias": "2.2.2",
+    "nodemon": "2.0.13",
+    "prettier": "2.4.1"
+  }
+}
