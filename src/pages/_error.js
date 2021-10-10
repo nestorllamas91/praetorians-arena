@@ -1,4 +1,4 @@
-import Error from '@/components/error/component';
+import Error from '@/shared/error/component';
 
 export default function ErrorPage(props) {
   return <Error statusCode={props.statusCode} />;

@@ -4,15 +4,13 @@
     "target": "es2020",
     "module": "es2020",
     "moduleResolution": "node",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/slices/*": ["slices/*"],
-      "@/middleware/*": ["middleware/*"],
-      "@/routes/*": ["routes/*"],
-      "@/controllers/*": ["controllers/*"],
-      "@/models/*": ["models/*"],
-      "@/utils/*": ["utils/*"]
+      "@/menu/*": ["src/menu/*"],
+      "@/shared/*": ["src/shared/*"],
+      "@/utils/*": ["src/utils/*"],
+      "@/data/*": ["public/assets/data/*"],
+      "@/uploads/*": ["uploads/*"]
     }
   }
 }

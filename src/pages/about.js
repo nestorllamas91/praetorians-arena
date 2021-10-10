@@ -1,5 +1,1 @@
-import About from '@/components/about/component';
-
-export default function AboutPage() {
-  return <About />;
-}
+export { default } from '@/menu/help/about/component';

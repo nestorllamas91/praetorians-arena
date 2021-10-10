@@ -1,5 +1,1 @@
-import Contact from '@/components/contact/component';
-
-export default function ContactPage() {
-  return <Contact />;
-}
+export { default } from '@/menu/help/contact/component';

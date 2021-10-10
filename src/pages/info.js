@@ -1,5 +1,1 @@
-import Information from '@/components/info/component';
-
-export default function InformationPage() {
-  return <Information />;
-}
+export { default } from '@/menu/help/info/component';

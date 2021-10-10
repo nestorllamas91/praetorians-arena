@@ -1,7 +1,7 @@
 ![Praetorians Arena Logo](/public/assets/images/logos/praetorians-arena.png)
 
 - [1. Technologies](#1-technologies)
-- [2. Praetorians Remaster](#2-praetorians-remaster)
+- [2. Praetorians HD Remaster](#2-praetorians-remaster)
 - [3. Praetorians Arena](#3-praetorians-arena)
 
 # 1. Technologies
@@ -10,9 +10,9 @@
 - **`Backend`**: JavaScript, Node.js, Express.js.
 - **`Database`**: NoSQL, MongoDB, Mongoose.
 
-# 2. Praetorians Remaster
+# 2. Praetorians HD Remaster
 
-Praetorians is a real-time strategy videogame, originally released in 2003 only for the videogame platform PC (Microsoft Windows), but remastered in 2020 for PC (Microsoft Windows), PlayStation 4, and Xbox One. The developer of Praetorians was Pyro Studios and the developer of Praetorians Remaster is Torus Games. In both cases, the publisher is Kalypso Media Group. The title of the videogame refers to the elite Roman guard, the praetorians.
+Praetorians is a real-time strategy videogame, originally released in 2003 only for the videogame platform PC (Microsoft Windows), but remastered in 2020 for PC (Microsoft Windows), PlayStation 4, and Xbox One. The developer of Praetorians was Pyro Studios and the developer of Praetorians HD Remaster is Torus Games. In both cases, the publisher is Kalypso Media Group. The title of the videogame refers to the elite Roman guard, the praetorians.
 
 Praetorians focuses on Julius Caesar's campaigns on a period of time when Rome was constantly at war. It was easy for them. They were rich and had an amanzingly disciplined army with extremely capable commanders and good weapons and armor. During this period of Roman expansion, the legions were unbeatable, and were used with impunity in battles across Northern Europe and Britannia, the Near East, and North Africa. As expected, being so widespread was part of the reason why the great Roman Empire finally fell, but it was a fantastic journey while it lasted.
 
@@ -20,7 +20,7 @@ Praetorians is set in the middle of the political frameworks of an emerging Roma
 
 # 3. Praetorians Arena
 
-Praetorians Arena is an online competition platform for the videogame Praetorians Remaster. This is a remaster, released in 2020, for the original videogame Praetorians, released in 2003. The videogame is available for the videogame platforms PC (Microsoft Windows), PlayStation 4, and Xbox One, but this competitions platform is only available for PC (Microsoft Windows) since the sequence files of the played games cannot be uploaded with the consoles.
+Praetorians Arena is an online competition platform for the videogame Praetorians HD Remaster. This is a remaster, released in 2020, for the original videogame Praetorians, released in 2003. The videogame is available for the videogame platforms PC (Microsoft Windows), PlayStation 4, and Xbox One, but this competitions platform is only available for PC (Microsoft Windows) since the sequence files of the played games cannot be uploaded with the consoles.
 
 The goal of the platform is to achieve the first position in the rankings of the available competitions by playing and uploading the sequence files of the played games into this platform. The rankings are automatically updated with the internal data of such sequence files. A sequence file is just a type of binary file that is saved by a player after finishing a multiplayer game, and it is the proof that Praetorians Arena is based on.
 
