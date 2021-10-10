@@ -12,7 +12,7 @@ export const logInPlayer = createAsyncThunk('player/logIn', async (arg, { reject
     return rejectWithValue(error.response.data);
   }
 });
-
+//
 export const logOutPlayer = createAsyncThunk('player/logOut', async (token, { rejectWithValue }) => {
   try {
     const url = '/api/players/auth/logout';
